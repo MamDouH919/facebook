@@ -54,3 +54,86 @@ body {
         width: 300px; 
     }
 }
+.wedbox{
+    max-width: 50%;
+}
+.loginbox{
+    float: left;
+    margin-top: 100px;
+    margin-left: 140px;
+    height: 310px;
+    max-width: 350px;
+    background-color: white;
+    border-style: solid;
+    border-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 5px;
+    text-align: center;
+}
+.username , .pass, .btn{
+    margin: 10px 0;
+    width: 95%;
+    height: 45px;
+    border-radius: 5px;
+    border-width: 1px;
+    border-color: rgba(0, 0, 0, 0.2);
+    
+}
+.username ,.pass{
+    padding: 10px;
+    color: rgba(0, 0, 0, 1);
+}
+.btn{
+    cursor: pointer;
+    font-size: 18px;
+    color: white;
+    text-transform: capitalize;
+    background-color:rgb(24, 119, 242);
+    font-weight: 550;
+}
+.loginbox .btn:hover {
+    background-color:rgb(10, 101, 221);
+}
+.loginbox a{
+    text-align: center;
+    font-size: 15px;
+    margin-left: 0px;
+    text-decoration: none;
+    margin-top: 20px;
+    color: rgb(24, 119, 242);
+}
+.loginbox hr{
+    width: 95%;
+    margin:15px 2.5% 0 2.5% ;
+    opacity: 0.4;
+}
+.btn2{
+    cursor: pointer;
+    width: 55%;
+    height: 43px;
+    margin: 10px 0;
+    background-color:#42B72A;
+    border-radius: 5px;
+    border-width: 1px;
+    border-color: rgba(0, 0, 0, 0.2);
+    color: white;
+    font-size: 17px;
+    text-transform: capitalize;
+    font-weight: 550;
+}
+.loginbox .btn2:hover {
+    background-color:#2ea317;
+}
+.loginbox a:hover{
+    text-decoration:underline;
+}
+@media screen and (max-width: 800px) {
+    .loginbox  {  
+        position: absolute;
+        margin-left:0 ;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%,-50%); 
+        width: 300px;       
+    }
+}
